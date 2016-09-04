@@ -23,11 +23,32 @@
         </dependency>
 
         <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+            <version>2.5</version>
+        </dependency>
+
+
+
+        <dependency>
             <groupId>BigDecimalCalculator</groupId>
             <artifactId>BigDecimalCalculator</artifactId>
             <version>1.7-SNAPSHOT</version>
-            <!--<systemPath>${basedir}\src\main\resources\BigDecimalCalculator-1.7-SNAPSHOT.jar</systemPath>-->
+            <systemPath>${basedir}\src\main\resources\BigDecimalCalculator-1.7-SNAPSHOT.jar</systemPath>
         </dependency>
+
     </dependencies>
+
+    <plugins>
+        <plugin>
+            <artifactId>maven-assembly-plugin</artifactId>
+            <version>2.6</version>
+            <configuration>
+                <descriptorRefs>
+                    <descriptorRef>jar-with-dependencies</descriptorRef>
+                </descriptorRefs>
+            </configuration>
+        </plugin>
+    </plugins>
 
 </project>
