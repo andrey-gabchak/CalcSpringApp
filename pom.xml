@@ -45,10 +45,10 @@
         </dependency>
 
         <dependency>
-            <groupId>BigDecimalCalculator</groupId>
-            <artifactId>BigDecimalCalculator</artifactId>
-            <version>1.7-SNAPSHOT</version>
-            <systemPath>${basedir}\src\main\resources\BigDecimalCalculator-1.7-SNAPSHOT.jar</systemPath>
+            <groupId>SimpleCalc</groupId>
+            <artifactId>SimpleCalc</artifactId>
+            <version>1.0</version>
+            <systemPath>${basedir}\src\main\resources\SimpleCalc-1.0.jar</systemPath>
         </dependency>
 
     </dependencies>
