@@ -1,6 +1,6 @@
-import Operations.Operation;
+import Operations.BinaryOperation;
 
-public class Division implements Operation {
+public class Division implements BinaryOperation {
 
     @Override
     public double getResult(double num1, double num2) {

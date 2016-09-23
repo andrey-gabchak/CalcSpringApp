@@ -1,7 +1,6 @@
+import Operations.BinaryOperation;
 
-import Operations.Operation;
-
-public class Multiplication implements Operation {
+public class Multiplication implements BinaryOperation {
     @Override
     public double getResult(double num1, double num2) {
         return num1 * num2;
