@@ -25,5 +25,5 @@ SimpleCalc lib https://github.com/andrey-gabchak/SimpleCalc
 Module 5.2
 
 При помощи Spring AOP добавьте логирование всех вызовов public методов "калькулятор" библиотеки из предыдущего задания
-Для логирования используйте лггинг фреймворк по вашему выбору: (например slf4j http://www.slf4j.org/manual.html или log4j https://logging.apache.org/log4j/1.2/manual.html)
+Для логирования используйте логгинг фреймворк по вашему выбору: (например slf4j http://www.slf4j.org/manual.html или log4j https://logging.apache.org/log4j/1.2/manual.html)
 Логгер должен выводить логи в консоль и в файл.
