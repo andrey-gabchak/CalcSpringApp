@@ -10,7 +10,7 @@
     <bean id="logAspect" class="LogAspect"/>
 
     <aop:config>
-        <aop:pointcut id="logPointcut" expression="execution( * Bootstrap.*(..))"/>
+        <aop:pointcut id="logPointcut" expression="execution( * *.*(..))"/>
         <aop:aspect ref="logAspect">
             <aop:around pointcut-ref="logPointcut" method="logging"/>
         </aop:aspect>
